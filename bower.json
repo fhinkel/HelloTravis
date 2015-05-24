@@ -1,6 +1,10 @@
 {
   "name": "hellotravis",
   "private": true,
+  "devDependencies": {
+    "chai": "~2.3.0",
+    "mocha": "~2.1.0"
+  },
   "dependencies": {
     "bootstrap": "~3.2.0"
   }
