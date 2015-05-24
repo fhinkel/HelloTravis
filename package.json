@@ -1,7 +1,7 @@
 {
   "name": "hellotravis",
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test --force"
   },
   "devDependencies": {
     "apache-server-configs": "^2.7.1",
