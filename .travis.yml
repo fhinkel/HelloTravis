@@ -3,6 +3,7 @@ node_js:
   - "0.12"
   - "iojs"
 before_install: npm install -g grunt-cli
-install: npm install
-bower install
+install:
+  -npm install
+  - bower install
 before_script: grunt build
