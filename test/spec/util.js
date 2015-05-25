@@ -7,7 +7,7 @@
             assert.equal(42, magic.magicNumber);
         });
         it('should add numbers', function () {
-            assert.equal(12, magic.addNumbers(4, 5));
+            assert.equal(9, magic.addNumbers(4, 5));
         });
     });
 })();
