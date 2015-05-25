@@ -1,0 +1,1 @@
+"use strict";var util=function(){var a=42,b=function(a,b){return a+b};return{magicNumber:a,addNumbers:b}};console.log("'Allo 'Allo!");var magic=util();console.log("The answer is "+magic.magicNumber),console.log("2 + 3 = "+magic.addNumbers(2,3));
